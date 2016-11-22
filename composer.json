@@ -1,5 +1,14 @@
 {
     "require": {
-        "darrenmothersele/stylex": "dev-master"
-    }
+        "darrenmothersele/stylex": "dev-develop"
+    },
+    "config": {
+        "preferred-install": "source"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:bangpound/stylex.git"
+        }
+    ]
 }
